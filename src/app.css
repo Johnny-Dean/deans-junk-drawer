@@ -1,0 +1,25 @@
+body {
+	font-family: 'Fira Mono', monospace;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.primary-window {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 8px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(3.1px);
+	-webkit-backdrop-filter: blur(3.1px);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.secondary-window {
+	/* From https://css.glass */
+	background: rgba(219, 219, 219, 0.25);
+	backdrop-filter: blur(3.1px);
+	-webkit-backdrop-filter: blur(3.1px);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+}
